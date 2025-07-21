@@ -14,7 +14,7 @@ const Header = ({ handleMain, main }) => {
 
     return (
         <div className={`header ${main ? "dark" : ""}`}>
-            <p className={`myname ${main ? "sp" : ""}`}>&lt;Amarjit Gupt/&gt;</p>
+            <p className={`myname ${main ? "sp" : ""}`}>&lt;Amarjit Gupta/&gt;</p>
             <div  className={`toggle-btn ${main ? "t-btn" : ""}`} onClick={() => setMenu(!menu)}>{menu ? <RxCross1 className="toogle-btn1" /> : <RxHamburgerMenu className="toogle-btn1" />}</div>
             <div className="toogle1" onClick={handleMain}>{main ? <MdOutlineLightMode className={`tg ${main ? "sp" : ""}`} /> : <CiDark className={`tg ${main ? "sp" : ""}`} />}</div>
             <ul className={`un ${menu ? "x1" : ""} ${main ? "dark" : ""}`}>
