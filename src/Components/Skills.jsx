@@ -17,10 +17,14 @@ const Skills = () => {
       <div className="skills1">
         <div className="skill-item" data-aos="fade-up"><img src="./images/html.png" alt="" /><p className="skill-txt">HTML</p></div>
         <div className="skill-item" data-aos="fade-up"><img src="./images/css.png" alt="" /><p className="skill-txt">CSS</p></div>
-        <div className="skill-item" data-aos="fade-up"><img src="./images/javascript.png" alt="" /><p className="skill-txt">
-          Javascript</p></div>
-        <div className="skill-item" data-aos="fade-up"><img src="./images/react.png" alt="" /><p className="skill-txt">React JS</p></div>
         <div className="skill-item" data-aos="fade-up"><img src="/images/tailwind.png" alt="" /><p className="skill-txt">Tailwind CSS</p></div>
+        <div className="skill-item" data-aos="fade-up"><img src="./images/javascript.png" alt="" /><p className="skill-txt">
+          JavaScript</p></div>
+        <div className="skill-item" data-aos="fade-up"><img src="./images/react.png" alt="" /><p className="skill-txt">React JS</p></div>
+
+        <div className="skill-item" data-aos="fade-up"><img src="./images/typescript.png" alt="" /><p className="skill-txt">TypeScript</p></div>
+        <div className="skill-item" data-aos="fade-up"><img src="./images/next.png" alt="" /><p className="skill-txt">Next JS</p></div>
+        
         <div className="skill-item" data-aos="fade-up"><img src="/images/nodejs.png" alt="" /><p className="skill-txt">Node JS</p></div>
         <div className="skill-item" data-aos="fade-up"><img src="/images/express.png" alt="" /><p className="skill-txt">Express JS</p></div>
         <div className="skill-item" data-aos="fade-up"><img src="/images/mongodb.png" alt="" /><p className="skill-txt">MongoDB</p></div>

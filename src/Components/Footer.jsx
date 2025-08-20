@@ -32,7 +32,7 @@ const Footer = ({main}) => {
     return(
         <div id="footer">
             <p className="footer-txt1">Designed and build by Amarjit</p>
-            <p className="footer-txt2">@ 2024 All rights reserved.</p>
+            <p className="footer-txt2">@ 2025 All rights reserved.</p>
             {btn?<div className={`scroll-btn ${main?"scroll-btn1":""}`} onClick={handleScroll} data-aos="zoom-in"><FaArrowUp /></div>:""}
         </div>
     );
